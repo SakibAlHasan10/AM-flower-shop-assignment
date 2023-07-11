@@ -65,6 +65,9 @@
     color: white;
     font-size: 16px;
 }
+.btn:hover{
+    background-color: #a29999;
+}
 
 /* This is Our Featured Flowers container */
 .our-flowers {
@@ -158,6 +161,7 @@
 
 .popular-section h1{
     font-size: 35px;
+    color: #685d5f;
 }
 .all-popular-flower{
     width: 80%;
@@ -218,7 +222,8 @@
     border: 1px solid #afa3a5;
     color: #E55473;
     width: 130px;
-    padding: 0px 20px;
+    font-size: 14px;
+    padding: 10px 15px;
 }
 .popular-flower img{
     width: 180px;
@@ -260,7 +265,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
+    width: 70%;
     padding: 80px 0px;
     margin: 0px auto;
 }
