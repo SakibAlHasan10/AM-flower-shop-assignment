@@ -100,3 +100,29 @@
 .flower-color3{
      background-color: rgba(71, 125, 17, 0.15);
 }
+/* this is Our Service section */
+.our-service{
+    text-align: center;
+    height: 180px;
+    background-color: rgba(39, 39, 39, 0.05);
+    width: 60%;
+    padding: 20px 65px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.service img{
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+}
+.service{
+    width: 33%;
+    font-weight: 700;
+}
+/* this is sing up section */
+.sing-up-section{
+    margin: 100px 0px ;
+}
