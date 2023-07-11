@@ -2,7 +2,8 @@
     margin: 0px;
     padding: 0px;
 }
-.body{
+
+.body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -37,13 +38,15 @@
     font-weight: bold;
     line-height: 70px;
     letter-spacing: -1px;
-    color:rgb(55, 52, 52) ;
+    color: rgb(55, 52, 52);
 }
-.header-container p{
+
+.header-container p {
     margin: 20px 0px;
     color: rgb(105, 106, 107);
 }
-.btn{
+
+.btn {
     background-color: #E55473;
     width: 130px;
     padding: 10px 20px;
@@ -52,56 +55,67 @@
     color: white;
     font-size: 16px;
 }
+
 /* This is Our Featured Flowers container */
-.our-flowers{
+.our-flowers {
     text-align: center;
     margin-top: 100px;
     height: 100vh;
 }
-.our-flowers h2{
+
+.our-flowers h2 {
     font-size: 30px;
     font-weight: 800;
 }
-.our-flowers p{
+
+.our-flowers p {
     margin: 15px;
     line-height: 22px;
-    color:rgb(142, 139, 139) ;
+    color: rgb(142, 139, 139);
 }
-.our-flower{
+
+.our-flower {
     width: 300px;
     height: 350px;
-    margin:10px;
+    margin: 10px;
     border-radius: 300px 300px 0px 0px;
 }
-.our-flower img{
+
+.our-flower img {
     width: 200px;
     height: 270px;
     padding: 80px 40px 0px 60px;
 }
-.flower-desc h4{
+
+.flower-desc h4 {
     font-size: 18px;
     text-align: center;
     margin: 25px;
-    color:rgb(81, 80, 80) ;
+    color: rgb(81, 80, 80);
 }
-.all-flower{
+
+.all-flower {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align:justify;
+    text-align: justify;
     padding-top: 30px;
 }
-.flower-color1{
-    background-color:rgba(167, 33, 98, 0.15);
+
+.flower-color1 {
+    background-color: rgba(167, 33, 98, 0.15);
 }
-.flower-color2{
+
+.flower-color2 {
     background-color: rgba(5, 151, 160, 0.15);
 }
-.flower-color3{
-     background-color: rgba(71, 125, 17, 0.15);
+
+.flower-color3 {
+    background-color: rgba(71, 125, 17, 0.15);
 }
+
 /* this is Our Service section */
-.our-service{
+.our-service {
     text-align: center;
     height: 180px;
     background-color: rgba(39, 39, 39, 0.05);
@@ -113,16 +127,56 @@
     align-items: center;
     border-radius: 10px;
 }
-.service img{
+
+.service img {
     width: 80px;
     height: 80px;
     margin: 15px;
 }
-.service{
+
+.service {
     width: 33%;
     font-weight: 700;
 }
+
 /* this is sing up section */
-.sing-up-section{
-    margin: 100px 0px ;
+.sing-up-section {
+    margin: 100px 0px;
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 70vh;
+}
+
+.sing-up-section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    padding:80px 0px;
+    margin: 0px auto;
+}
+
+.sing-up-content {
+    text-align: center;
+}
+
+.sing-up-content h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.off{
+    color: #E55473;
+}
+
+.sing-up-content p{
+    margin: 25px 0px;
+    font-size: 12px;
+    color: rgb(130, 126, 126);
+}
+
+.sing-up-img  {
+    height: 310px;
+}
+.sing-up-img img{
+    height: 300px;
 }
